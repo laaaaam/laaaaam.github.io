@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.header {
+  background-color: #474648;
+  color: #ffffff;
+}
+.contact-info {
+  text-align: left;
+  padding: 0px 150px;
+  display: flex;
+  align-items: center;
+}
+.contact-info .material-symbols-outlined {
+  font-size: 20px;
+}
+.contact-info a {
+  text-align: right;
+  padding: 0px 400px;
+}
+.navigation {
+  background-color: #faf9f7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigation .logo {
+  text-align: left;
+  padding: 10px 150px;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: #dcdfd1;
+  border-radius: 50px;
+}
+.reserve-button {
+  display: inline-block;
+  text-align: right;
+  padding: 10px 230px;
+}
+.reserve {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  background-color: #faf9f7;
+  border-radius: 50px;
+}
+.content {
+  text-align: center;
+}
+.content .title1 {
+  font-size: 100px;
+}
+.content .title2 {
+  font-size: 20px;
+}
+.quick-reserve {
+  width: 80px;
+  height: 40px;
+  background-color: #990505;
+  color: #ffffff;
+  border-radius: 50px;
+}
+.see-menu {
+  width: 80px;
+  height: 40px;
+  background-color: #faf9f7;
+  color: #000000;
+  border-radius: 50px;
+}
