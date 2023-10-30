@@ -107,6 +107,9 @@ section {
 }
 body {
   line-height: 1;
+  background-image: url(./img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 ol,
 ul {
